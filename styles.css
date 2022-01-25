@@ -21,6 +21,9 @@ body {
     #cabecera{
         margin-bottom: 100px;
     }
+    #formulario{
+        width: 40%;
+    }
 
 }
 
@@ -53,10 +56,15 @@ body {
         text-align: center;
         width: 100% !important;
     }
+    #formulario{
+        width: 40%;
+    }
 }
 @media (max-width:390px){
     
-
+    #formulario{
+        width: 40%;
+    }
 }
 
 #cabecera{
@@ -131,8 +139,8 @@ body {
     padding-left: 20px;
 }
 #img-perfil img{
-    width: 400px;
-    height: 400px;
+    width: 300px;
+    height: 300px;
     border-radius: 500px;
 }
 
