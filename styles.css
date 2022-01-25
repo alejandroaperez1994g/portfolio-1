@@ -1,0 +1,329 @@
+html, body { height: 100%; }
+body { 
+    margin: 0; 
+    background-color: black; 
+}
+
+@media (max-width:580px){
+    #menu{
+        flex-direction: column;
+        margin-right: 60px;
+    }
+    #menu li{
+        height: 50px;
+        margin-bottom: 10px;
+    }
+    #menu li a{
+        margin-left: 100px !important;
+        width: 50%;
+    }
+
+    #cabecera{
+        margin-bottom: 100px;
+    }
+
+}
+
+@media (max-width:428px){
+    #img-perfil{
+        display: none;
+    }
+    #bio{
+        margin-top: 40px;
+        width: 70% !important;
+        padding-left: 65px !important;
+        text-align: justify;
+    }
+    #bio h3{
+        text-align: center;
+        width: 100% !important;
+    }
+    #skills{
+        margin-top: 40px;
+        margin-left: 1px !important;
+        width: 70% !important;
+        padding-left: 25px !important;
+        text-align: justify;
+    }
+    #skills h3{
+        text-align: center;
+        width: 100% !important;
+    }
+    #skills li{
+        text-align: center;
+        width: 100% !important;
+    }
+}
+@media (max-width:390px){
+    
+
+}
+
+#cabecera{
+    width: 100%;
+    height: auto;
+    letter-spacing: 2px;
+    margin-bottom: 100px;
+}
+
+#menu{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 40px;
+    line-height: 100px;
+    margin-bottom: 75px;
+}
+#menu li{
+    list-style: none;
+}
+
+#menu li a{
+    margin-right: 30px;
+    margin-left: 10px;
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    display: block;
+    transition: all 500ms;
+    color: white;
+    text-shadow: 2px 2px 0px #333333;
+    height: 75px;
+    
+}
+#menu li a:hover{
+    transform: scale(1.2, 1.2);
+    text-shadow: 1px 1px 2px black, 0 0 1em #F0DABF;
+    border-bottom: 1px solid rgb(240, 218, 191);
+}
+
+/*------------------------------------------------------------------------*/
+
+#contenedor{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#informacion{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+#informacion h3{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: rgb(240, 218, 191);
+    text-decoration: underline;
+}
+
+#img-perfil{
+    width: 25%;
+    padding-left: 20px;
+}
+#img-perfil img{
+    width: 400px;
+    height: 400px;
+    border-radius: 500px;
+}
+
+#bio{
+    letter-spacing: 2px;
+    width: 33%;
+    padding-left: 122px;
+    line-height: 20px;
+    
+}
+#bio p{
+    letter-spacing: 2px;
+}
+
+
+#bio h3{
+    width: 33%;
+    font-size: 30px;
+    color: rgb(240, 218, 191);
+    
+}
+#bio p{
+    font-size: 18px;
+}
+
+#habilidades{
+     width: 33%;
+    padding-left: 150px;
+    margin-left: 50px;
+    margin-top: -169px;
+}
+
+#habilidades h3{
+    margin-top: 31px;
+    width: 14%;
+    margin-bottom: 15px;
+    font-size: 30px;
+}
+
+#habilidades li{
+    list-style: none;
+}
+
+
+#proyectos{
+    width: 100%;
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: row wrap;
+    flex-grow: 1;
+}
+
+.card{
+    letter-spacing: 2px;
+    background-color: rgb(240, 218, 191);
+    width: 100%;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+    margin-right: 40px;
+    border: 1px solid #F0DABF;
+    box-shadow: 2px 0px 10px 0px rgb(240, 218, 191);
+}
+.card-img-top{
+    height: 400px;
+}
+
+.btn{
+    letter-spacing: 2px;
+    background-color: black;
+    transition: all 1000ms;
+    color: white;
+}
+
+.btn:hover{
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+}
+
+#contacto{
+    margin-top: 50px;
+    color: white;
+    width: 100%;
+}
+
+#info{
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+#info h3{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: rgb(240, 218, 191);
+    text-decoration: underline;
+}
+
+#contacta{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+#formulario{
+    width: 25%;
+    height: auto;
+    color: black;
+    background-color: rgb(240, 218, 191);
+    padding: 35px;
+    margin: 75px;
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 25px 0px rgb(240, 218, 191,0.5);
+    /* border-color: inherit; */
+}
+
+
+.input{
+    border-radius: 5px;
+    font-size: 17px;
+    margin-bottom: 15px;
+    margin-top: 10px;
+    height: 40px;
+}
+
+.textarea{
+    height: 150px;
+}
+
+#enviar{
+    width: 45%;
+    height: auto;
+    font-size: 20px;
+    background-color: black;
+    color: white;
+    border-color: rgb(240, 218, 191);
+    border-radius: 5px;
+    padding: 6px;
+    transition: all 1000ms;
+    margin-top: 10px;
+}
+
+#enviar:hover{
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+}
+
+#footer{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+    border-top: 2px solid rgb(240, 218, 191);
+    color: white;
+    background-color: rgba(255, 255, 255, 0.3);
+    
+}
+
+#footer p{
+    font-size: 20px;
+    margin-top: 40px;
+    line-height: 80px;
+}
+
+#footer h3{
+    font-size: 25px;
+    color: rgb(240, 218, 191);
+    text-decoration: underline;
+}
+
+#redes{
+    font-size: 18px;
+    margin-right: 65px;
+}
+
+#redes h3{
+    margin-top: 20px;
+}
+
+#listado{
+    display: flex;
+    margin-left: -38px;
+}
+
+#listado li{
+    list-style: none;
+    /* margin-top: 10px; */
+}

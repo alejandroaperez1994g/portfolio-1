@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="../BOOTSTRAP/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+    <header>
+        <ul id="menu">
+            
+            <li><a href="#proyectos">Trabajos</a></li>
+            <li><a href="../principal/Julio Macias Caldera.pdf" target="_blank">Mi CV</a></li>
+            <li><a href="#contacto">Contacta</a></li>
+        </ul>
+    </header>
+
+    <div id="contenedor">
+        <div id="informacion">
+            <div id="img-perfil">
+                <img class="img" src="../principal/WhatsApp Image 2022-01-05 at 23.37.06.jpeg">
+            </div>
+
+            <div id="bio">
+                <h3>Quien soy</h3>
+                <p>
+                    Hola, mi nombre es Julio Macías Caldera.
+                </p>
+                <p>
+                    Tengo el titulo de Administrador de sistemas informáticos, pero
+                    descubrí que lo que me apasionaba de verdad era la programación y decidí dar el paso de formarme
+                    como
+                    desarrollador.
+                </p>
+
+                <p>
+                    Empecé a estudiar programación en Octubre de 2021 con cursos de Udemy y por mi cuenta. <br>Sigo
+                    formandome
+                    como
+                    desarrollador front-end y back-end y espero pronto poder dedicarme a ello.
+                </p>
+            </div>
+            <div id="habilidades">
+
+                <ul id="skills">
+                    <h3>Skills</h3>
+                    <li>HTML & CSS</li>
+                    <li>JAVASCRIPT</li>
+                    <li>JQUERY</li>
+                    <li>MEAN STACK</li>
+                </ul>
+            </div>
+
+        </div>
+
+        <div id="proyectos">
+            <div class="card">
+                <img src="../principal/tienda.png" class="card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title">Proyecto</h5>
+                    <p class="card-text">Es mi primer proyecto construido con Angular. Se trata de una tienda online,
+                        los productos son sacados de una API construida por mi. Tambien tiene un sistema de login</p>
+                    <a href="http://localhost:4200" target="blank"  class="btn">Visitar</a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://via.placeholder.com/300x300" class="card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title">Proyecto</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p>
+                    <a href="#" class="btn">Visitar</a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://via.placeholder.com/300x300" class="card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title">Proyecto</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p>
+                    <a href="#" class="btn">Visitar</a>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div id="contacto">
+            <div id="info">
+                <h3>Contacta conmigo</h3>
+                <span>¡Si quieres contactar conmigo rellene el formulario y trataré de responderle lo antes
+                    posible!</span>
+            </div>
+
+            <div id="contacta">
+                <form id="formulario" action="https://formspree.io/f/xgedebvd" method="POST">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" name="nombre" class="input" placeholder="Introduce tu nombre" required />
+
+                    <label for="email">Email</label>
+                    <input type="email" name="email" class="input" placeholder="email@example.com" required />
+
+                    <label for="textarea">Asunto</label>
+                    <textarea name="textarea" class="input textarea" required></textarea>
+
+                    <input type="submit" name="enviar" id="enviar" value="Enviar">
+                </form>
+            </div>
+        </div>
+
+
+
+    </div>
+
+    <div id="footer">
+        <p>Realizado por Julio Macías Caldera</p>
+
+        <div id="redes">
+            <h3>Mis redes</h3>
+            <span>julito2302@gmail.com</span>
+            <ul id="listado">
+                <li>
+                    <a href="https://www.linkedin.com/in/juliomaciascaldera" target="_blank">
+                        <img src="https://img.icons8.com/color/48/000000/linkedin.png" /> </a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/julito23mc/" target="_blank">
+                        <img src="https://img.icons8.com/fluency/48/000000/instagram-new.png" /></a>
+                </li>
+
+
+            </ul>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="../jquery/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="../BOOTSTRAP/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="index.js"></script>
+</body>
+
+</html>
