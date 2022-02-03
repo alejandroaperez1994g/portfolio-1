@@ -9,8 +9,7 @@ Este es mi portfolio, tiene 3 secciones:
   
 En la parte del menu si haces click te llevara a cada seccion del portfolio. Ademas de tener un enlace que te abre en una pestaña nueva mi curriculum.
 
-La parte de los proyectos está aun sin acabar por lo que si haces click en el boton de la pagina no te llevará a ningun lado ya que la base de datos está en local y estoy trabajando para hacerla publica.
-
+El primer proyecto tiene una base de datos en local por lo que si haces click en cualquiera de los enlaces que tiene la pagina te aparecerá la seccion en blanco, lo mismo pasa con el login. Si tratas de registrarte no te dejará
 
 INGLES
 
@@ -22,4 +21,4 @@ This is my personal portfolio, It has 3 sections:
   
 If u click in any link you will go to any section of the portfolio. You have to a link that open a new window in the explorer that redirect to my CV.
 
-Project section is still not finish so if u click in the button u will not go anywhere because my database is local and I'm trying to set public
+The first project has a database, so if you click on any links it has on the page, the section will be blank, the same goes for the login. If you try to register it won't let you
